@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Adhoc]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionofChrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="piit.automtion.browser">
+        <methods>
+          <include name="Pictures"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="Browsers"/>
+          <include name="afterclass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- piit.automtion.browser -->
+    </classes>
+  </test> <!-- RegressionofChrome(failed) -->
+  <test thread-count="5" name="RegressionofFirefox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="piit.automtion.browser">
+        <methods>
+          <include name="f"/>
+          <include name="Pictures"/>
+          <include name="beforeClass"/>
+          <include name="Browsers"/>
+          <include name="afterclass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- piit.automtion.browser -->
+    </classes>
+  </test> <!-- RegressionofFirefox(failed) -->
+  <test thread-count="5" name="RegressionofEdge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="piit.automtion.browser">
+        <methods>
+          <include name="Pictures"/>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="Browsers"/>
+          <include name="afterclass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- piit.automtion.browser -->
+    </classes>
+  </test> <!-- RegressionofEdge(failed) -->
+</suite> <!-- Failed suite [Adhoc] -->
